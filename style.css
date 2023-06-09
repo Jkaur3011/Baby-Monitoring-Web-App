@@ -1,0 +1,33 @@
+body {
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    margin: 0px;
+    font-family: 'Itim', cursive;
+    width: 100%;
+    color: white;
+    animation-name: glow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 px #fff, 0 0 20px #5416A3, 0 0 30px #e60073
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #A150AF;
+    }}
+
+#smallh {
+        font-size: 17px;
+    }
+
+    a {
+        width: 200px;
+        background-color: rgb(84, 134, 26);
+        color: white;
+    }
